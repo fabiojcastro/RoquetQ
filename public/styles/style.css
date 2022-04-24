@@ -1,0 +1,24 @@
+#home {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  align-items: center;
+  margin-right: 15.375rem;
+  justify-content: space-between;
+}
+
+#home .login {
+  width: 22.6875rem;
+}
+
+form.button {
+  border: 2px solid var(--grey);
+}
+
+.divider {
+  color: var(--grey);
+  font: 400 1rem 'Poppins', 'sans-serif';
+}
+
+#home input {
+  outline: none;
+}

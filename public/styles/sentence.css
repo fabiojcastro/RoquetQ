@@ -1,0 +1,146 @@
+.sr-only{
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+header .buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.container {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+h1.title {
+  margin-bottom: 1.5rem;
+}
+
+#questions.button {
+  padding: 0;
+}
+
+.box {
+  display: flex;
+  border: 2px solid var(--grey);
+  border-radius: 0.5rem;
+  justify-content: space-between;
+  padding: 0.75rem 1rem 1rem 1rem;
+  min-height: 8.375rem;
+  margin-bottom: 1rem;
+}
+
+.box p {
+  color: var(--grey);
+}
+
+textarea {
+  font: 400 1rem 'Open Sans', 'sans-serif';
+  color: var(--grey);
+  width: 100%;
+}
+
+.icon-lock {
+  display: flex;
+  color: var(--grey);
+}
+
+form {
+  width: 50rem;
+}
+.anonimous {
+  display: flex;
+  align-items: center;
+}
+
+.button .send {
+  display: flex;
+  align-content: center;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  position: fixed;
+  right: 11rem;
+}
+
+.button#sends {
+  display: flex;
+  padding: 0rem;
+}
+
+#questions textarea{
+  display: block;
+  outline: none;
+  resize: none;
+  width: 100%;
+  background: transparent;
+}
+
+.question-wrapper div,
+.question-wrapper img,
+.question-wrapper p,
+.question-wrapper a
+{
+  background: transparent;
+}
+
+.question-wrapper {
+  background: var(--lightblue);
+  margin-bottom: .5rem;
+  border-radius: 0 .5rem .5rem .5rem;
+  padding: 1.5rem;
+  height: 8.5rem;
+}
+
+.question-wrapper a {
+  color: var(--lightgrey);
+  font: 400 1rem 'Open-Sans', 'sans-serif';
+  gap: .5rem;
+}
+
+.question-wrapper p {
+  color: 400 1rem 'Open-Sans', 'sans-serif';
+  color: var(--black);
+  word-break: break-word;
+  min-height: 3.2rem;
+}
+
+.question-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.question-content .user{
+  background: var(--blue);
+  clip-path: circle();
+  padding: 1rem;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+.actions a {
+  display: flex;
+  align-items: center;
+}
+
+/* QUESTION READ */
+
+.question-wrapper.read {
+background: #eaecf2;
+}
+
+.question-wrapper.read .question-content .user {
+  background: var(--grey);
+}
+

@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: var(--white);
+  border: none;
+}
+
+:root {
+  --blue: hsla(216, 100%, 60%, 1);
+  --black: hsla(237, 71%, 18%, 1);
+  --grey: hsla(216, 31%, 72%, 1);
+  --white: hsla(0, 0%, 98%, 1);
+  --red: hsla(350, 79%, 58%, 1);
+  --lightgrey: hsla(216, 22%, 38%, 1);
+  --lightblue: hsla(217, 100%, 94%, 1);
+  --background: hsla(216, 100%, 99%, 1);
+  --linear: linear-gradient(
+    195.96deg,
+    #5498ff -122.01%,
+    #428eff -8.36%,
+    #297fff 98.4%
+  );
+}
+
+.title {
+  font: 700 1.75rem 'Poppins', 'sans-serif';
+  color: var(--black);
+}
+
+.text-button {
+  font: 500 1rem 'Poppins', 'sans-serif';
+}
+
+.text-box {
+  font: 400 1rem 'Open Sans', 'sans-serif';
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  background: var(--white);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 10rem 4rem 10rem;
+}
+
+.divider {
+  display: flex;
+  padding: 2.5rem 0rem;
+}
+
+.divider p {
+  padding: 0 0.9rem;
+}
+
+.line {
+  background: var(--grey);
+  width: 100%;
+  height: 1px;
+}
+
+.enter,
+.create {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.button {
+  align-items: center;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+}
+
+.button-enter {
+  display: flex;
+  gap: 1rem;
+  background: var(--blue);
+  color: var(--white);
+  justify-content: center;
+  border: 1px solid var(--blue);
+}
+
+.button-enter:hover {
+  background: var(--white);
+  color: var(--blue);
+  transition: 0.5s;
+  border: 1px solid var(--blue);
+}
+
+.button-create {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  color: var(--blue);
+  background: var(--white);
+  border: 2px solid var(--blue);
+}
+
+.button-create:hover {
+  background: var(--blue);
+  color: var(--white);
+  transition: 0.5s;
+}
+
+.ball {
+  position: fixed;
+  background: var(--linear);
+  clip-path: circle();
+  opacity: 0.1;
+}
+
+.ball.top {
+  width: 39.56rem;
+  height: 39.56rem;
+  top: -24rem;
+  right: -24rem;
+}
+
+.ball.bottom {
+  width: 13.25rem;
+  height: 13.25rem;
+  bottom: -9rem;
+  right: 5rem;
+}
