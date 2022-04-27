@@ -63,6 +63,14 @@
   font: 500 1rem 'Poppins', 'sans-serif';
 }
 
+.blue {
+  color: var(--white);
+  background: var(--blue);
+  padding: .8rem 2rem .8rem 2rem;
+  border-radius: .5rem;
+  font: 500 1rem 'Poppins', 'sans-serif';
+}
+
 .modal input {
   border-radius: .5rem;
   border: 2px solid var(--blue);

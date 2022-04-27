@@ -28,6 +28,10 @@ h1.title {
   padding: 0;
 }
 
+.send.button{
+  right: 0;
+}
+
 .box {
   display: flex;
   border: 2px solid var(--grey);
@@ -65,11 +69,10 @@ form {
   display: flex;
   align-content: center;
   padding: 0.5rem 1.5rem 0.5rem 1.5rem;
-  position: fixed;
   right: 11rem;
 }
 
-.button#sends {
+#sends.button {
   display: flex;
   padding: 0rem;
 }
@@ -132,6 +135,10 @@ form {
 .actions a {
   display: flex;
   align-items: center;
+}
+
+.blue {
+  background-color: var(--blue);
 }
 
 /* QUESTION READ */
